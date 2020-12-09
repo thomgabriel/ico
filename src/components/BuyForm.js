@@ -82,7 +82,7 @@ class BuyForm extends Component {
                   disabled/>
 
                 <div className="input-group-append">
-                  <div className="icon padding-right">
+                  <div className="icon">
                     <img src={gaufLogo} height='32' alt=""/>
                     &nbsp;  GAUF
                   </div>

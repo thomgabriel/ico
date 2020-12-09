@@ -12,7 +12,6 @@ import Popup from './Popup'
 import './App.css'
 
 class App extends Component {
-
   async componentWillMount() {
     await this.loadWeb3()
     await this.loadBlockchainData()

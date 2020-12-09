@@ -18,7 +18,7 @@ class Navbar extends Component {
           {/* GaugeField Crowdsale */}
         </a>
 
-        {!this.props.account ? <div id="loader" className="spinner-border text-light" role="status"></div> :
+        {!this.props.account ? <div id="loader" className="text-light" role="status"></div> :
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block boulas-regular negative-margin-topper">
             <a
               className="text-white"
