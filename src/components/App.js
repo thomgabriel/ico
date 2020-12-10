@@ -39,7 +39,7 @@ class App extends Component {
     if(mainNetwork == networkId) {
 
       // Load GAUf
-      const gauf = new web3.eth.Contract(GAUf.abi, '0xD6e3E071B2fC393646ba64b5Ce3D867e9B5f8E94')
+      const gauf = new web3.eth.Contract(GAUf.abi, '0x8ce7386fe7688417885adebcbfc01a5445226b2c')
       this.setState({ gauf })
       let GAUfBalance = await gauf.methods.balanceOf(this.state.account).call() / 10 ** 18
       this.setState({ GAUfBalance: GAUfBalance.toString() })
@@ -51,7 +51,7 @@ class App extends Component {
       this.setState({ LinkBalance : LinkBalance.toString() })
 
       // Load Crowdsale
-      const crowdsale = new web3.eth.Contract(Crowdsale.abi, '0x495B2930EA63eF6fFA849249D8acd124A30b77E9')
+      const crowdsale = new web3.eth.Contract(Crowdsale.abi, '0x5a29De37757497cc296db63c5D6Dd85234dbe334')
       this.setState({ crowdsale })
 
     } else {

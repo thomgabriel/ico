@@ -328,9 +328,9 @@ contract GaufIco is LimitedUnitsIco {
     uint256 internal constant _oneLinkToGauF = 400;
      uint256 internal constant _oneEthToGauF = 18000;
     
-    address payable _wallet = 0x27678d678a0FB9BcacE36b3A2ede4665FD4465B7;
+    address payable _wallet = 0xB4F53f448DeD6E3394A4EC7a8Dfce44e1a1CE404;
     ERC20 internal _link = ERC20(0x514910771AF9Ca656af840dff83E8264EcF986CA);
-    ERC20 internal _gauf = ERC20(0xD6e3E071B2fC393646ba64b5Ce3D867e9B5f8E94);
+    ERC20 internal _gauf = ERC20(0x8Ce7386fe7688417885ADEBCBfc01A5445226b2C);
 
     constructor () public
         ICO(_oneLinkToGauF, _oneEthToGauF, _wallet, _link, _gauf) 

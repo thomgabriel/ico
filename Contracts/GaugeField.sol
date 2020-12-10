@@ -143,7 +143,7 @@ contract GaugeField is ERC20, ERC20Detailed {
     string private constant _name = "GaugeField";
     string private constant _symbol = "GAUF";
     uint8 private constant _decimals = 18;
-    address private constant _teamWallet= 0x5e38B1F3e45d901F00eb9F74407383e87876af39;
+    address private constant _teamWallet= 0xB4F53f448DeD6E3394A4EC7a8Dfce44e1a1CE404;
 
     uint256 internal constant _tokenUnit = 10**18;
     uint256 internal constant _hundredMillion = 10**8;
