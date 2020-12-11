@@ -31,6 +31,24 @@ class Main extends Component {
             {content}
           </div>
         </div>
+        <div className= 'container-div'>
+          <a
+            className="link-text"
+            href={"https://etherscan.io/address/0x5a29de37757497cc296db63c5d6dd85234dbe334"}
+            target="_blank"
+            rel="noopener noreferrer">
+              Contract address
+          </a>
+        </div>
+        <div className= 'center-link'>
+          <a
+            className="link-text"
+            href={"https://metamask.zendesk.com/hc/en-us/articles/360015489031"}
+            target="_blank"
+            rel="noopener noreferrer">
+              Add GAUF to Metamask
+          </a>
+        </div>
       </div>
     );
   }

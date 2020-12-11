@@ -11,6 +11,20 @@ body {
     margin-top: 30px;
 }
 
+.center-link{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: center;
+    margin-top:10px;
+}
+
+.link-text{
+    color:white;
+    font-size: 20px;
+    text-decoration: underline
+
+}
+
 .submit-button{
     Display: flex;
     Align-Items: center;
